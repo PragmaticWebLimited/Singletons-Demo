@@ -2,17 +2,22 @@
 
 class StaticRequestData {
 
+	// A variable to denote if the singleton has already been initialized
 	private static $initialized = false;
 
+	// The data we are wrapping into a singleton
 	private static $requester_ip;
 	private static $connection_time;
 
 	private static $get_variables;
 	private static $post_variables;
 
+	// A private __construct method means no-one can instantiate this class
 	private function __construct() {
 	}
 
+	// Setup all our variables
+	// This function must be called in the bottom of this file
 	public static function __init() {
 
 		if ( self::$initialized ) {
@@ -33,6 +38,8 @@ class StaticRequestData {
 			self::$post_variables[ $key ] = htmlspecialchars( $value );
 		}
 	}
+
+	// The accessor functions for our data
 
 	public static function GetRequesterIP() {
 		return self::$requester_ip;
@@ -59,4 +66,6 @@ class StaticRequestData {
 	}
 }
 
+// Call __init now, to ensure the data is populated.
+// This must be called before anyone else uses our static class, so right after the class is declared is a good place
 StaticRequestData::__init();
