@@ -8,8 +8,9 @@ The code for the blog post series:
 
 # Contribution and Discussion
 
-If you have suggested eddits to this code base, please feel free to raise an issue / pull request.
+If you have suggested edits to this code base, please feel free to raise an issue / pull request.
 
-If you have technical quesitons surrounding code leve details, please also feel free to create an issue.
+If you have technical questions surrounding code level details, please also feel free to create an issue.
 
-If you have conceptual questions, or wish to discuss point made in the blog posts directly, please comment directly on the relevent post.
+If you have conceptual questions, or wish to discuss point made in the blog posts directly, please comment directly on the relevant post.
+
