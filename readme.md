@@ -6,7 +6,7 @@ The code for the blog post series:
 * [Singletons: Two ways about it](https://pragmatic.agency/singletons-part-2/)
 * [Singletons: Implementing Singletons in PHP](https://pragmatic.agency/singletons-part-3/)
 
-# Contribution or discussion
+# Contribution and Discussion
 
 If you have suggested eddits to this code base, please feel free to raise an issue / pull request.
 
